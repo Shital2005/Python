@@ -13,5 +13,5 @@ class Exam(Student):
         print("marks: 90")
         print("grade: A")
 obj = Exam()
-obj.College_name()
+obj.collegename()
 obj.student_info()
