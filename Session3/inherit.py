@@ -2,7 +2,7 @@ class College:
     def collegename(self):
         print ("ABC College")
 
-        class Student(College):
+class Student(College):
            def student_info(self):
                print ("Arjun")
                print ("101")
