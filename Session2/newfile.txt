@@ -1,0 +1,13 @@
+DEBUG:root:this is debug info
+INFO:root:imp info
+ERROR:root:jdnwj
+DEBUG:root:this is debug info
+INFO:root:imp info
+ERROR:root:jdnwj
+WARNING:root:warning
+CRITICAL:root:critical
+DEBUG:root:this is debug info
+INFO:root:imp info
+ERROR:root:jdnwj
+WARNING:root:warning
+CRITICAL:root:critical

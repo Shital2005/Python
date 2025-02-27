@@ -1,0 +1,6 @@
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "c:\Users\shita\Desktop\Python\day2\log.py", line 27, in <module>
+    print(val1/val2)
+          ~~~~^~~~~
+ZeroDivisionError: division by zero
