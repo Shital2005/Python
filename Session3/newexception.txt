@@ -1,0 +1,6 @@
+ERROR:root:invalid literal for int() with base 10: '& C:/Users/shita/anaconda3/python.exe c:/Users/shita/Desktop/Python/Session3/Pattern.py'
+Traceback (most recent call last):
+  File "c:\Users\shita\Desktop\Python\Session2\log.py", line 25, in <module>
+    val1 = int(input("enter first value:"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '& C:/Users/shita/anaconda3/python.exe c:/Users/shita/Desktop/Python/Session3/Pattern.py'

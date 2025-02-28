@@ -28,10 +28,26 @@
 
 # constructor overriding
 
-class Father:
-    def __init__(self):
-        print("Father class constructor")
-class Son(Father):
-    def __init__(self):
-        print("Son class constructor")
-obj = Son()
+# class Father:
+#     def __init__(self):
+#         print("Father class constructor")
+# class Son(Father):
+#     def __init__(self):
+#         print("Son class constructor")
+# obj = Son()
+
+
+# class Father:
+#     def __init__(self,a):
+#         print("Father class constructor")
+# class Son(Father):
+#     def __init__(self):
+#         super().__init__()
+#         print("Son class constructor")
+# obj = Son()
+
+
+
+
+
+
