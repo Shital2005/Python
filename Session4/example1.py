@@ -17,7 +17,9 @@ class Student(Person):
         print(f"Welcome, {name} , {student_id}")
 
 student1 = Student('Shital', 1234) 
-Student.welcome("Shital", 1234)       
+Student.welcome("Shital", 1234)  
+
+
 
 
 
