@@ -1,0 +1,46 @@
+#binary trees:
+# full binary trees
+# complete binary  trees
+# all levels are filled completely except the last level
+# perfect binary trees- exactly 2 nodes 
+# balanced binary tree 
+
+
+
+class BinaryTree:
+    def _init_(self,data):
+        self.data = data
+        self.childern = []
+
+    def _str_(self,level=0):
+        ret = " " * level + str(self.data) + "\n"
+        for child in self.childern:
+            ret += child._str_(level + 1)
+        return ret
+
+    def add_child(self,treenode):
+        self.childern.append(treenode)
+
+node_1 = BinaryTree("Drinks")
+node_2 = BinaryTree("Hot")
+node_3 = BinaryTree("Cold")
+node_4 = BinaryTree("Tea")
+node_5 = BinaryTree("Coffee")
+node_6 = BinaryTree("Alcholic")
+node_7 = BinaryTree("Non ALcholic")
+node_8 = BinaryTree("Beer")
+node_9 = BinaryTree("Wine")
+node_10 = BinaryTree("Soda")
+node_11 = BinaryTree("Water")
+
+node_1.add_child(node_2)
+node_1.add_child(node_3)
+node_2.add_child(node_4)
+node_2.add_child(node_5)
+node_3.add_child(node_6)
+node_3.add_child(node_7)
+node_6.add_child(node_8)
+node_6.add_child(node_9)
+node_7.add_child(node_10)
+node_7.add_child(node_11)
+print(node_1)
