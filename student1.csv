@@ -1,0 +1,4 @@
+StudentId,Student_branch,Name,p1,p2,p3,p4,p5,Total,Percentage,grade,Result
+StudentId,Student_branch,Name,p1,p2,p3,p4,p5,Total,Percentage,grade,Result
+1,comp,shiatl,20,30,40,50,60,200,40.0,F,Fail
+2,comp,om,50,50,50,50,50,250,50.0,E,Pass
