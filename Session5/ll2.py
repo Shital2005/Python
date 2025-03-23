@@ -28,7 +28,7 @@ class LinkedList:
             node.next = self.head
             self.head = node
 
-    def addInBetween(self,prev_value,value):
+    def addInBetween(self, prev_value, value):
         current = self.head
         while current is not None:
             if current.data == prev_value:
@@ -37,13 +37,12 @@ class LinkedList:
                 current.next = node
                 if node.next is None:
                     self.tail = node
-                    print(f"node added successfully after {prev_value}")
-                    return 
-                current = current.next
-                print(f"node with value {prev_value } not found ")
+                print(f"Node added successfully after {prev_value}")
+                return
+            current = current.next
+        print(f"Node with value {prev_value} not found")
 
-        
-    def addNodeEnd(self,value):
+    def addNodeEnd(self, value):
         node = Node(value)
         if self.head is None:
             self.head = node
@@ -53,14 +52,13 @@ class LinkedList:
             self.tail = node
         print("Node added successfully at the end")
 
-
     def displayNode(self):
         current = self.head
         while current is not None:
             print(current.data, "->", end=' ')
             current = current.next
         print("None")
- 
+
 if __name__ == '__main__':
     object = LinkedList()
 
@@ -86,13 +84,11 @@ if __name__ == '__main__':
         elif ch == 3:
             prev_value = int(input("Enter prev value for node: "))
             value = int(input("Enter value for node: "))
-
-            object.addInBetween(prev_value,value)
+            object.addInBetween(prev_value, value)
 
         elif ch == 4:
             value = int(input("Enter value for node: "))
-            object.addnode(value)
-            print("Node added successfully at the end of the LinkedList")
+            object.addNodeEnd(value)
 
         elif ch == 5:
             object.displayNode()
